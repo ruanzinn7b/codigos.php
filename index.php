@@ -42,7 +42,7 @@ session_start();
                 echo "<h1 style='font-family: Arial, sans-serif;'>Olá, " . $_SESSION['nome'] . "</h1><br><br>";
                 if ($_SESSION['nome'] === 'administrador') {
                     echo '<a href="cadastro.php">Cadastrar Usuário</a><br><br>';
-                    echo '<a href="listar.php">Listar Usuários</a><br><br>';
+                    echo '<a href="usuarios.php">Listar Usuários</a><br><br>';
                 }
                 echo '<a href="alterarsenha.php">Alterar Senha</a><br>';
                 echo '<a href="logout.php">Sair</a><br>';
