@@ -1,0 +1,1 @@
+$selectcpf = "SELECT cpf FROM usuario WHERE cpf = '$cpf'";
